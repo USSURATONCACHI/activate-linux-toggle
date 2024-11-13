@@ -1,6 +1,6 @@
 # Maintainer: Daniil Redchin <redchindaniil@gmail.com> <github.com/USSURATONCACHI>
 pkgname=activate-linux-toggle
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="CLI tool to easily run programs with access to only one network device"
 arch=('any')
@@ -30,6 +30,6 @@ package() {
     install -Dm755 "${novpn_srcdir}/activate-linux-is-enabled" "${pkgdir}/usr/bin/activate-linux-is-enabled"
 
     install -Dm644 "${novpn_srcdir}/activate-linux.service" "${pkgdir}/etc/activate-linux-toggle/activate-linux.service"
-    
+
     install -Dm644 "${novpn_srcdir}/activate-linux-toggle.desktop" "${pkgdir}/usr/share/applications/activate-linux-toggle.desktop"
 }
