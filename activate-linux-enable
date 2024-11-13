@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SERVICE_FILE=~/.config/systemd/user/activate-linux.service
+
+if [ ! -e "$SERVICE_FILE" ]; then
+    echo "Service does not exist, creating"
+    install -Dm644 activate-linux.service $SERVICE_FILE
+    systemctl --user daemon-reload
+    echo "Created service"
+fi
+
+systemctl --user enable activate-linux.service
+systemctl --user start activate-linux.service

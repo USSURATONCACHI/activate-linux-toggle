@@ -1,0 +1,9 @@
+[package]
+name = "activate-linux-toggle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk4 = { version = "0.9.4", features = ["v4_2"] }
+open = "5.3.0"
+tempfile = "3.14.0"
