@@ -4,7 +4,7 @@ SERVICE_FILE=~/.config/systemd/user/activate-linux.service
 
 if [ ! -e "$SERVICE_FILE" ]; then
     echo "Service does not exist, creating"
-    install -Dm644 activate-linux.service $SERVICE_FILE
+    install -Dm644 /etc/activate-linux-toggle/activate-linux.service $SERVICE_FILE
     systemctl --user daemon-reload
     echo "Created service"
 fi
