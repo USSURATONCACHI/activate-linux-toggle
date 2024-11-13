@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Activate Linux Toggle
+Comment=UI to enable or disable 'Activate Linux' text
+Exec=/usr/bin/activate-linux-toggle %F
+Terminal=false
+Type=Application
+Categories=Accessories;
