@@ -1,0 +1,22 @@
+pkgbase = activate-linux-toggle
+	pkgdesc = CLI tool to easily run programs with access to only one network device
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/USSURATONCACHI/activate-linux-toggle
+	arch = any
+	license = Apache-2.0
+	makedepends = coreutils
+	makedepends = rust
+	makedepends = cargo
+	depends = bash
+	depends = coreutils
+	depends = systemd
+	depends = gtk4
+	provides = activate-linux-toggle
+	provides = activate-linux-enable
+	provides = activate-linux-disable
+	provides = activate-linux-is-enabled
+	source = https://github.com/USSURATONCACHI/activate-linux-toggle/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 7dcd0d4f6b9d4fc6a57cc874d5e5e2c1600d0f6de9459ee17c7f8adeb47cb5a2
+
+pkgname = activate-linux-toggle
