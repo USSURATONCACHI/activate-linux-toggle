@@ -9,10 +9,10 @@ license=('Apache-2.0')
 provides=('activate-linux-toggle' 'activate-linux-enable' 'activate-linux-disable' 'activate-linux-is-enabled')
 
 depends=('bash' 'coreutils' 'systemd' 'gtk4')
-makedepends=('coreutils' 'rust' 'cargo')
+makedepends=('coreutils' 'rust' 'cargo' 'git')
 
 source=("${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('7dcd0d4f6b9d4fc6a57cc874d5e5e2c1600d0f6de9459ee17c7f8adeb47cb5a2')
+sha256sums=('37e2e4631469e48c6b360d4e8cf337d467c2d2262b2ea7cb3993a242c913859a')
 
 build() {
     novpn_srcdir="${srcdir}/activate-linux-toggle-${pkgver}"
