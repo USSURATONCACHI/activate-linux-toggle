@@ -2,7 +2,7 @@
 pkgname=activate-linux-toggle
 pkgver=1.0.1
 pkgrel=1
-pkgdesc="CLI tool to easily run programs with access to only one network device"
+pkgdesc="A simple UI app to enable or disable activate-linux on boot"
 arch=('any')
 url="https://github.com/USSURATONCACHI/activate-linux-toggle"
 license=('Apache-2.0')
