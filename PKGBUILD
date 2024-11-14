@@ -1,7 +1,7 @@
 # Maintainer: Daniil Redchin <redchindaniil@gmail.com> <github.com/USSURATONCACHI>
 pkgname=activate-linux-toggle
 pkgver=1.0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="A simple UI app to enable or disable activate-linux on boot"
 arch=('any')
 url="https://github.com/USSURATONCACHI/activate-linux-toggle"
