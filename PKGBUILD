@@ -8,8 +8,8 @@ url="https://github.com/USSURATONCACHI/activate-linux-toggle"
 license=('Apache-2.0')
 provides=('activate-linux-toggle' 'activate-linux-enable' 'activate-linux-disable' 'activate-linux-is-enabled')
 
-depends=('bash' 'coreutils' 'systemd' 'gtk4')
-makedepends=('coreutils' 'rustup' 'git' 'gcc' )
+depends=('bash' 'coreutils' 'systemd' 'gtk4' 'activate-linux')
+makedepends=('coreutils' 'rustup' 'git' 'gcc' 'pkg-config')
 
 source=("${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('37e2e4631469e48c6b360d4e8cf337d467c2d2262b2ea7cb3993a242c913859a')
